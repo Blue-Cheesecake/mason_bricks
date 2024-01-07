@@ -17,7 +17,7 @@ class AppWD extends StatelessWidget {
 
     {{^is_using_riverpod}}
     return MaterialApp.router(
-        routerConfig: {{project_key}}Navigation.instance.router,
+        routerConfig: {{project_key.upperCase()}}Navigation.instance.router,
         debugShowCheckedModeBanner: false,
     );
     {{/is_using_riverpod}}
@@ -25,7 +25,7 @@ class AppWD extends StatelessWidget {
     {{#is_using_riverpod}}
     return ProviderScope(
       child: MaterialApp.router(
-        routerConfig: {{project_key}}Navigation.instance.router,
+        routerConfig: {{project_key.upperCase()}}Navigation.instance.router,
         debugShowCheckedModeBanner: false,
       ),
     );
