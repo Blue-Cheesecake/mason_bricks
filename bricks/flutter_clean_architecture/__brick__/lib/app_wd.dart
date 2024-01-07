@@ -9,7 +9,7 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 {{/is_using_riverpod}}
 
-import 'lib/core/core.dart';
+import './core/core.dart';
 
 class AppWD extends StatelessWidget {
   const AppWD({super.key});
