@@ -1,12 +1,10 @@
 {{^is_using_riverpod}}
 import 'package:flutter/material.dart';
-
 {{/is_using_riverpod}}
 
 {{#is_using_riverpod}}
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-
 {{/is_using_riverpod}}
 
 import './core/core.dart';
@@ -22,7 +20,6 @@ class AppWD extends StatelessWidget {
         routerConfig: {{project_key}}Navigation.instance.router,
         debugShowCheckedModeBanner: false,
     );
-
     {{/is_using_riverpod}}
 
     {{#is_using_riverpod}}
@@ -32,7 +29,6 @@ class AppWD extends StatelessWidget {
         debugShowCheckedModeBanner: false,
       ),
     );
-
     {{/is_using_riverpod}}
   }
 }
