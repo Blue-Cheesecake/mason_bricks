@@ -52,7 +52,7 @@ final class {{project_key.upperCase()}}Logger {
   }
 
   static void debug({required String location, required String message}) {
-    if (_isDebugLogEnabled) {
+    if (_enableDebug) {
       _log(level: _LogLevel.debug, emoji: '👁️', location: location, message: message, useLog: false);
     }
   }
