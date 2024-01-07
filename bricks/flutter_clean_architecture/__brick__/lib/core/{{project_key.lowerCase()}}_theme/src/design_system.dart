@@ -13,6 +13,6 @@ final class DesignSystem {
   static const primary = Colors.blue;
   static const secondary = Colors.blueAccent;
   static const error = Colors.red;
-  static const success = Colors.green
+  static const success = Colors.green;
   static const disable = Colors.grey;
 }
