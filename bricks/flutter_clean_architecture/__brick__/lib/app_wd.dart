@@ -19,6 +19,8 @@ class AppWD extends StatelessWidget {
     return MaterialApp.router(
         routerConfig: {{project_key.upperCase()}}Navigation.instance.router,
         debugShowCheckedModeBanner: false,
+        theme: {{project_key.upperCase()}}Theme.light,
+        darkTheme: {{project_key.upperCase()}}Theme.dark,
     );
     {{/is_using_riverpod}}
 
@@ -27,6 +29,8 @@ class AppWD extends StatelessWidget {
       child: MaterialApp.router(
         routerConfig: {{project_key.upperCase()}}Navigation.instance.router,
         debugShowCheckedModeBanner: false,
+        theme: {{project_key.upperCase()}}Theme.light,
+        darkTheme: {{project_key.upperCase()}}Theme.dark,
       ),
     );
     {{/is_using_riverpod}}
