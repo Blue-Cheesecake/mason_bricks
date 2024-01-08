@@ -2,7 +2,7 @@ import 'dart:io';
 
 import 'package:dio/dio.dart';
 
-import '../../../../core.dart';
+import '../../../core.dart';
 
 final class CustomHeadersInterceptor extends InterceptorsWrapper {
   @override

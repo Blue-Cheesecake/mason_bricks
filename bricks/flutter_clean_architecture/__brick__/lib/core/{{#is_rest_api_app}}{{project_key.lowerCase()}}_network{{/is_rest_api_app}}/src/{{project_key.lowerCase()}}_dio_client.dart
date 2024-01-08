@@ -1,7 +1,7 @@
 import 'package:dio/dio.dart';
 
+import '../../core.dart';
 import './interceptors/interceptors.dart';
-import '../../../core.dart';
 
 final class {{project_key.upperCase()}}DioClient {
   {{project_key.upperCase()}}DioClient._();

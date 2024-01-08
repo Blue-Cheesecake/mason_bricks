@@ -1,6 +1,6 @@
 import 'package:dio/dio.dart';
 
-import '../../../../core.dart';
+import '../../../core.dart';
 
 final class LogginInterceptor extends InterceptorsWrapper {
   LogginInterceptor({required String location}) : _location = location;
