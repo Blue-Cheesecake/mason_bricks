@@ -1,0 +1,5 @@
+final class RoutePaths {
+  RoutePaths._();
+
+  static const homepage = '/homepage';
+}
