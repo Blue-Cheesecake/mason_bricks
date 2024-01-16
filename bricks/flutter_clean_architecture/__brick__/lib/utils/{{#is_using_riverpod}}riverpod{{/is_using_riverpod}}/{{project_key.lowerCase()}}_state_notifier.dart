@@ -2,7 +2,7 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 import '../../../core/core.dart';
 
-class {{project_key.upperCase()}}StateNotifier<T> extends StateNotifier {
+class {{project_key.upperCase()}}StateNotifier<T> extends StateNotifier<T> {
   {{project_key.upperCase()}}StateNotifier(super.state);
 
   static const _location = '{{project_key.upperCase()}}StateNotifier';
