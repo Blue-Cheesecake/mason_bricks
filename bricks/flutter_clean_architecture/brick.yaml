@@ -20,7 +20,7 @@ vars:
     type: string
     description: The project name
     default: project_name
-    prompt: What is project name (in snake_case)?
+    prompt: What is your project name (in snake_case)?
   project_key:
     type: string
     description: The project key tag
@@ -40,4 +40,4 @@ vars:
     type: boolean
     description: Determine to generate launch, settings for vscode
     default: true
-    prompt: Do you want to include launch.json & settings.json for vscode?
+    prompt: Do you want to include launch.json & settings.json for vscode editor?
