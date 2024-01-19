@@ -1,17 +1,7 @@
 name: flutter_clean_architecture
-description: A new brick created with the Mason CLI.
-
-# The following defines the brick repository url.
-# Uncomment and update the following line before publishing the brick.
-# repository: https://github.com/my_org/my_repo
-
-# The following defines the version and build number for your brick.
-# A version number is three numbers separated by dots, like 1.2.34
-# followed by an optional build number (separated by a +).
+description: This brick provides a solid foundation for building scalable and maintainable mobile apps. It features a well-organized directory structure, segregating the core functionalities, features, utilities, and assets for easy management and navigation. Key components include REST API integration (optional), Riverpod for state management (optional), secure storage, custom navigation setup, theme management, and user data handling. Additionally, it offers VSCode configuration files for an enhanced development experience. Ideal for projects requiring a structured and robust architecture, this brick sets the stage for efficient and organized Flutter development.
 version: 0.1.0
 
-# The following defines the environment for the current brick.
-# It includes the version of mason that the brick requires.
 environment:
   mason: ">=0.1.0-dev.51 <0.1.0"
 
