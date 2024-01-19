@@ -1,6 +1,7 @@
 name: flutter_clean_architecture
-description: This brick provides a solid foundation for building scalable and maintainable mobile apps. It features a well-organized directory structure, segregating the core functionalities, features, utilities, and assets for easy management and navigation. Key components include REST API integration (optional), Riverpod for state management (optional), secure storage, custom navigation setup, theme management, and user data handling. Additionally, it offers VSCode configuration files for an enhanced development experience. Ideal for projects requiring a structured and robust architecture, this brick sets the stage for efficient and organized Flutter development.
+description: Starter kit for Flutter using Clean Architecture, with optional REST API, Riverpod state management, and VSCode setup.
 version: 0.1.0
+repository: https://github.com/Blue-Cheesecake/mason_bricks/tree/main/bricks/flutter_clean_architecture
 
 environment:
   mason: ">=0.1.0-dev.51 <0.1.0"
