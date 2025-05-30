@@ -4,7 +4,7 @@ version: 0.1.0
 repository: https://github.com/Blue-Cheesecake/mason_bricks/tree/main/bricks/flutter_clean_architecture
 
 environment:
-  mason: ">=0.1.0-dev.51 <=0.1.ๅ"
+  mason: ">=0.1.0-dev.51 <=0.1.1"
 
 # Variables specify dynamic values that your brick depends on.
 # Zero or more variables can be specified for a given brick.
